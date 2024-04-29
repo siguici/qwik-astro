@@ -1,5 +1,13 @@
 # @qwikdev/create-astro
 
+## 0.0.3
+
+### Patch Changes
+
+- cbca1d3: 🚸 Improve user experience
+- 162b289: Add next steps to start the project 🚀
+- efff9da: 🚸 Adapt the CI and the package.json file to the dependency manager used
+
 ## 0.0.2
 
 ### Patch Changes
