@@ -1,11 +1,14 @@
-import { defineConfig } from "tsup";
+import { defineConfig } from "tsdown";
 
 export default defineConfig((options) => {
   return {
     format: ["esm", "cjs"],
     clean: true,
     minify: !options.watch,
-    dts: true,
+    dts: {
+      hashFilename: false
+    },
+    hashFilename: false,
     entry: [
       "src/app.ts",
       "src/cli.ts",
