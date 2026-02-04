@@ -1,5 +1,19 @@
 # @qwikdev/create-astro
 
+## 0.2.3
+
+### Patch Changes
+
+- 01db52b: Fix unresolved module handling and update build tooling
+
+  ### Fixes
+
+  - Return `null` instead of throwing on unresolved modules in `resolveId`
+
+  ### Chore
+
+  - Migrate build tooling from `tsup` to `tsdown`
+
 ## 0.2.2
 
 ### Patch Changes
